@@ -77,3 +77,15 @@ TARGET_HW_DISK_ENCRYPTION := true
 TARGET_INIT_VENDOR_LIB := libinit_land
 TARGET_RECOVERY_DEVICE_MODULES := libinit_land
 TARGET_UNIFIED_DEVICE := true
+
+# Multirom flags
+TARGET_RECOVERY_IS_MULTIROM := true
+MR_INPUT_TYPE := type_b
+MR_DPI := hdpi
+MR_DPI_FONT := 216
+MR_FSTAB := $(LOCAL_PATH)/recovery/root/etc/twrp.fstab
+MR_INIT_DEVICES := $(LOCAL_PATH)/multirom/mr_init_devices.c
+MR_PIXEL_FORMAT := "RGBX_8888"
+MR_USE_MROM_FSTAB := true
+TARGET_RECOVERY_IS_MULTIROM := true
+MR_KEXEC_MEM_MIN := 0x0
