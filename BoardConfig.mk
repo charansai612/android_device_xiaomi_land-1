@@ -87,5 +87,4 @@ MR_FSTAB := $(LOCAL_PATH)/recovery/root/etc/twrp.fstab
 MR_INIT_DEVICES := $(LOCAL_PATH)/multirom/mr_init_devices.c
 MR_PIXEL_FORMAT := "RGBX_8888"
 MR_USE_MROM_FSTAB := true
-TARGET_RECOVERY_IS_MULTIROM := true
 MR_KEXEC_MEM_MIN := 0x0
