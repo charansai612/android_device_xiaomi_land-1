@@ -88,3 +88,4 @@ MR_INIT_DEVICES := $(LOCAL_PATH)/multirom/mr_init_devices.c
 MR_PIXEL_FORMAT := "RGBX_8888"
 MR_USE_MROM_FSTAB := true
 MR_KEXEC_MEM_MIN := 0x0
+MR_NO_KEXEC := enabled
