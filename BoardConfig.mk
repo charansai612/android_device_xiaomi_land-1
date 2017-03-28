@@ -70,8 +70,8 @@ TW_DEFAULT_EXTERNAL_STORAGE := true
 #TWRP_INCLUDE_LOGCAT := true
 
 # Encryption support
-TW_INCLUDE_CRYPTO := true
-TARGET_HW_DISK_ENCRYPTION := true
+#TW_INCLUDE_CRYPTO := true
+#TARGET_HW_DISK_ENCRYPTION := true
 
 # Device
 TARGET_INIT_VENDOR_LIB := libinit_land
