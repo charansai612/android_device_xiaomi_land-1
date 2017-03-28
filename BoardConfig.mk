@@ -61,7 +61,7 @@ TW_DEFAULT_BRIGHTNESS := 80
 TW_MAX_BRIGHTNESS := 255
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_EXTRA_LANGUAGES := true
-TW_INCLUDE_NTFS_3G := true
+#TW_INCLUDE_NTFS_3G := true
 TW_DEFAULT_EXTERNAL_STORAGE := true
 
 # Debug flags
